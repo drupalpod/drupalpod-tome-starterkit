@@ -1,6 +1,6 @@
-# DrupalPod Starter-kit
+# DrupalPod + Tome Starter-kit
 
-> Starter-kit for running a Drupal 9 website in Gitpod
+> Starter-kit for running a Drupal 9 website with Tome in Gitpod
 
 
 ## Getting started
@@ -17,4 +17,9 @@
 
    _Note:_ To speed up this step, enable Prebuilds by follow the instructions @ https://www.gitpod.io/docs/prebuilds#enable-prebuilt-workspaces
 
-4. Install your site: `ddev drush site-install`
+
+## What is Tome
+
+Tome is a static storage system for content, allowing you to keep your content up to date without the need of a database.
+
+See the project page for more details: https://www.drupal.org/project/tome
