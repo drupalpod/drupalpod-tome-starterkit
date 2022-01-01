@@ -8,6 +8,8 @@ tasks:
       .gitpod/scripts/drupal-setup.sh
     command: |
       .gitpod/scripts/ddev-setup.sh
+      cat .gitpod/WELCOME.md
+      ddev drush user:login
 
 ports:
   - port: 2222
