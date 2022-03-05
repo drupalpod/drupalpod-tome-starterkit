@@ -21,10 +21,10 @@
     "require": {
         "composer/installers": "2.0.1",
         "drupal-tome/tome_drush": "dev-feature/3-drush_11",
-        "drupal/core-composer-scaffold": "9.3.6",
-        "drupal/core-project-message": "9.3.6",
-        "drupal/core-recommended": "9.3.6",
-        "drupal/tome": "1.5.0",
+        "drupal/core-composer-scaffold": "9.3.7",
+        "drupal/core-project-message": "9.3.7",
+        "drupal/core-recommended": "9.3.7",
+        "drupal/tome": "1.6.0",
         "drush/drush": "11.0.5"
     },
     "conflict": {
