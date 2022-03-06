@@ -22,7 +22,7 @@ jobs:
         run: ddev drupal-install
 
       - name: Build static site
-        run: ddev drush tome:static -l "<your url here>"
+        run: ddev drush tome:static -l "https://test.com"
 
       # If you're pointing a custom domain to GitHub Pages, you probably need a CNAME file:
       # - name: Copy CNAME
