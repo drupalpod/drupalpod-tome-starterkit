@@ -22,7 +22,7 @@ jobs:
         run: ddev drupal-install
 
       - name: Build static site
-        run: ddev drush tome:static -l "https://drupalpod.github.io"
+        run: ddev drush tome:static -l "https://drupalpod.github.io/drupalpod-tome-starterkit"
 
       # If you're pointing a custom domain to GitHub Pages, you probably need a CNAME file:
       # - name: Copy CNAME
@@ -36,7 +36,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v2
         env:
           PUBLISH_BRANCH: gh-pages-build
-          PUBLISH_DIR: ./html
-          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_DIR: ./html/drupalpod-tome-starterkit
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           emptyCommits: false
