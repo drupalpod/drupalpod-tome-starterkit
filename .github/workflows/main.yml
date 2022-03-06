@@ -1,0 +1,42 @@
+name: Build and deploy site
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@master
+
+      - name: Setup node env 🏗
+        uses: actions/setup-node@v3.0.0
+
+      - name: Setup ddev
+        uses: jonaseberle/github-action-setup-ddev@v1
+
+      - name: Install Drupal with Tome
+        run: ddev drupal-install
+
+      - name: Build static site
+        run: ddev drush tome:static -l "https://drupalpod.github.io/drupalpod-tome-starterkit"
+
+      # If you're pointing a custom domain to GitHub Pages, you probably need a CNAME file:
+      # - name: Copy CNAME
+      #   run: cp CNAME ./html/
+
+      # GitHub pages requires the 404 page to be in a particular path:
+      # - name: Copy 404 page
+      #   run: cp ./html/404/index.html ./html/404.html
+
+      - name: Deploy to GitHub pages
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PUBLISH_BRANCH: gh-pages-build
+          PUBLISH_DIR: ./html/drupalpod-tome-starterkit
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          emptyCommits: false
