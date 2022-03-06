@@ -37,6 +37,6 @@ jobs:
         env:
           PUBLISH_BRANCH: gh-pages-build
           PUBLISH_DIR: ./html
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           emptyCommits: false
