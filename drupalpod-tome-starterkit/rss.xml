@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://drupalpod.github.io/drupalpod-tome-starterkit/">
+  <channel>
+    <title>Drush Site-Install</title>
+    <link>https://drupalpod.github.io/drupalpod-tome-starterkit/</link>
+    <description/>
+    <language>en</language>
+    
+    
+  </channel>
+</rss>
