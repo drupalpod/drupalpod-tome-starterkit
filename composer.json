@@ -25,7 +25,7 @@
         "drupal/core-project-message": "9.3.7",
         "drupal/core-recommended": "9.3.7",
         "drupal/tome": "1.6.0",
-        "drush/drush": "11.0.5"
+        "drush/drush": "11.0.6"
     },
     "conflict": {
         "drupal/drupal": "*"
