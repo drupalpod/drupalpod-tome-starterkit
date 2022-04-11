@@ -3,7 +3,7 @@
     "description": "Contains global Drush commands for initializing and installing Tome.",
     "type": "drupal-drush",
     "require": {
-        "drush/drush": "11.0.7"
+        "drush/drush": "11.0.8"
     },
     "license": "MIT",
     "authors": [
