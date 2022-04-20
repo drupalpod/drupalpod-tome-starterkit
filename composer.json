@@ -19,13 +19,13 @@
         }
     ],
     "require": {
-        "composer/installers": "2.1.0",
+        "composer/installers": "2.1.1",
         "drupal-tome/tome_drush": "dev-feature/3-drush_11",
-        "drupal/core-composer-scaffold": "9.3.9",
-        "drupal/core-project-message": "9.3.9",
-        "drupal/core-recommended": "9.3.9",
+        "drupal/core-composer-scaffold": "9.3.12",
+        "drupal/core-project-message": "9.3.12",
+        "drupal/core-recommended": "9.3.12",
         "drupal/tome": "1.6.0",
-        "drush/drush": "11.0.8"
+        "drush/drush": "11.0.9"
     },
     "conflict": {
         "drupal/drupal": "*"
