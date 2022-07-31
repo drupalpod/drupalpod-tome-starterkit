@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "3888f00e-0203-48f9-a133-832e8dee3c75"
+            "value": "fbabf8cf-fab9-48a0-b2f5-30fc3ec7713b"
         }
     ],
     "langcode": [
@@ -13,22 +13,22 @@
         {
             "target_id": "default",
             "target_type": "shortcut_set",
-            "target_uuid": "1e86b329-d052-4eff-9e57-c18ea422b8b9"
+            "target_uuid": "cadc4bce-eced-43e4-91aa-022241db70af"
         }
     ],
     "title": [
         {
-            "value": "Add content"
+            "value": "All content"
         }
     ],
     "weight": [
         {
-            "value": -20
+            "value": -19
         }
     ],
     "link": [
         {
-            "uri": "internal:\/node\/add",
+            "uri": "internal:\/admin\/content",
             "title": null,
             "options": []
         }
