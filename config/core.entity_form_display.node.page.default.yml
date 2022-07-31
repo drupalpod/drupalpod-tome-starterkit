@@ -1,4 +1,4 @@
-uuid: 1b5502ba-9aae-43f2-a65f-30f88c99b3f8
+uuid: 9e2a874e-2a7c-4307-a1e4-1fa3dd99bad3
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
     - path
     - text
 _core:
-  default_config_hash: AD_lefuYmjsKeH3OQApsyP_nLj6ZnGaALznLQSQ0Z_o
+  default_config_hash: SfpLhPExzvR0MgFp0Wp7CrmgEnhcqQ-fXIWFhbf4ue0
 id: node.page.default
 targetEntityType: node
 bundle: page
@@ -39,24 +39,24 @@ content:
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 15
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 120
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 16
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   title:
     type: string_textfield

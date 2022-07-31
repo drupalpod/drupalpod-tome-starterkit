@@ -1,15 +1,15 @@
-uuid: 4d7bb36f-d191-445c-93f0-fe5f22d616ca
+uuid: c1e7ebe7-3fad-4ef7-9efc-cbee8c34f426
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - seven
+    - claro
 _core:
-  default_config_hash: YRY68JWkaUiGeZlWMv1nzeIgDm0ZZwXYgpqUpLFzwAY
-id: seven_content
-theme: seven
+  default_config_hash: a0Yyx1GeyKarZ4T_yXQBR_ZFKnXiFLtxAb6gWLd8nr0
+id: claro_content
+theme: claro
 region: content
 weight: 0
 provider: null
@@ -17,6 +17,6 @@ plugin: system_main_block
 settings:
   id: system_main_block
   label: 'Main page content'
-  provider: system
   label_display: '0'
+  provider: system
 visibility: {  }
