@@ -21,9 +21,9 @@
     "require": {
         "composer/installers": "2.1.1",
         "drupal-tome/tome_drush": "dev-feature/3-drush_11",
-        "drupal/core-composer-scaffold": "9.4.3",
-        "drupal/core-project-message": "9.4.3",
-        "drupal/core-recommended": "9.4.3",
+        "drupal/core-composer-scaffold": "9.5.9",
+        "drupal/core-project-message": "9.5.9",
+        "drupal/core-recommended": "9.5.9",
         "drupal/tome": "1.7.0",
         "drush/drush": "11.1.1"
     },
