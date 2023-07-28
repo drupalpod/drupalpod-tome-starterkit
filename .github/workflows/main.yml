@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-node@v3.4.1
 
       - name: Setup ddev
-        uses: jonaseberle/github-action-setup-ddev@v1
+        uses: ddev/github-action-setup-ddev@v1
 
       - name: Install Drupal with Tome
         run: ddev drupal-install
