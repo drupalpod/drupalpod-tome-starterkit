@@ -33,7 +33,7 @@ jobs:
       #   run: cp ./html/404/index.html ./html/404.html
 
       - name: Deploy to GitHub pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         env:
           PUBLISH_BRANCH: gh-pages-build
           PUBLISH_DIR: ./html/drupalpod-tome-starterkit
